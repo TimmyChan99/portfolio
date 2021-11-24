@@ -6,7 +6,7 @@
 
 Portfolio website mobile version
 
-![](/Screenshot_web_site)
+![This is an image](./Screenshot_web_site.png)
 
 ## Built With
 
