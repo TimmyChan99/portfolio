@@ -6,7 +6,8 @@
 
 Portfolio website mobile version
 
-![This is an image](./Screenshot_web_site.png)
+![Screenshot _web_site](https://user-images.githubusercontent.com/92228303/143276096-1b0e9377-2b64-4169-9035-27915fe1894c.png)
+
 
 ## Built With
 
