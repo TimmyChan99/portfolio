@@ -16,12 +16,6 @@ header {
   color: #28352f;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 header h3 {
   margin-right: 290px;
   font-weight: 600;
