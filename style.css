@@ -16,6 +16,12 @@ header {
   color: #28352f;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 header h3 {
   margin-right: 290px;
   font-weight: 600;
@@ -61,6 +67,16 @@ header img {
   color: #172b4d;
   margin: 20px 50px 25px 50px;
   font-size: 24px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social_media_icons {
