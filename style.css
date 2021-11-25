@@ -84,3 +84,94 @@ ul {
 .next_button {
   margin-top: 50px;
 }
+
+/* Works Section */
+
+.title {
+  margin: 30px 24px 40px 24px;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.works_section_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 30px 20px 55px;
+}
+
+.img_placeholder {
+  width: 100%;
+  height: 350px;
+}
+
+.project_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+  height: 230px;
+  border: 2px #ebf0ee solid;
+}
+
+.project_name {
+  color: #3a4a42;
+  text-align: center;
+  font-weight: 600px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.languages_used li {
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  margin: auto 10px auto 10px;
+  background-color: #ebf0ee;
+  color: #3a4a42;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.see_project {
+  text-decoration: none;
+  background-color: #36b37f;
+  color: #fff;
+  padding: 12px 12px 12px 12px;
+  border-radius: 4px;
+}
+
+.cards {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: repeat(5, 600px);
+  grid-template-columns: repeat(1, 450px);
+  margin-top: 60px;
+}
+
+/* About Me Section */
+
+.detailed_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("./images/illustration-aboutme-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 300px;
+  width: 300px;
+}
