@@ -16,10 +16,10 @@ header {
   color: #28352f;
 }
 
-header h3 {
+header a {
   margin-right: 290px;
   font-weight: 600;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 header img {
@@ -88,18 +88,21 @@ ul {
 /* Works Section */
 
 .title {
-  margin: 30px 24px 40px 24px;
+  margin: 30px 24px 20px 24px;
   font-weight: bold;
   font-size: 50px;
   text-decoration: none;
   text-align: center;
 }
 
-.works_section_title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+hr {
+  height: 6px;
+  background-color: #36b37e;
+  border-radius: 24px;
+  width: 60px;
+  border: none;
+  margin-left: 210px;
+  margin-top: 30px;
 }
 
 .card {
@@ -205,6 +208,7 @@ ul {
   padding: 12px;
   margin-right: 12px;
   margin-top: 8px;
+  cursor: pointer;
 }
 ul .languages {
   display: flex;
