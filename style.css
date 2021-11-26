@@ -152,9 +152,26 @@ hr {
   font-weight: bold;
 }
 
+.card2_content a {
+  text-decoration: none;
+  color: #36b37e;
+}
+
 .languages_used li a {
   text-decoration: none;
   color: #3a4a42;
+}
+
+.languages li {
+  color: #36b37e;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: white;
+  font-weight: bold;
+  padding: 12px;
+  margin-right: 12px;
+  margin-top: 8px;
+  cursor: pointer;
 }
 
 .languages_used li:hover { background: #c5e9da; }
@@ -211,18 +228,6 @@ hr {
   margin-top: 50px;
 }
 
-.languages li {
-  color: #36b37e;
-  border-radius: 8px;
-  font-size: 15px;
-  background-color: white;
-  font-weight: bold;
-  padding: 12px;
-  margin-right: 12px;
-  margin-top: 8px;
-  cursor: pointer;
-}
-
 ul .languages {
   display: flex;
   flex-wrap: wrap;
@@ -232,11 +237,6 @@ ul .languages {
   display: grid;
   row-gap: 20px;
   margin-bottom: 20px;
-}
-
-.card2_content a {
-  text-decoration: none;
-  color: #36b37e;
 }
 
 .card2_content li:hover { background-color: #344563; }
