@@ -150,8 +150,14 @@ hr {
   color: #3a4a42;
   font-size: 12px;
   font-weight: bold;
-  cursor: pointer;
 }
+
+.languages_used li a {
+  text-decoration: none;
+  color: #3a4a42;
+}
+
+.languages_used li:hover { background: #C5E9DA; }
 
 .see_project {
   text-decoration: none;
@@ -228,4 +234,9 @@ ul .languages {
   margin-bottom: 20px;
 }
 
+.card2_content a {
+ text-decoration: none;
+ color: #36b37e;
+}
 
+.card2_content li:hover { background-color: #344563 ;}
