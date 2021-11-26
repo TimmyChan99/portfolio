@@ -20,6 +20,7 @@ header a {
   margin-right: 290px;
   font-weight: 600;
   text-decoration: none;
+  color: #28352f;
 }
 
 header img {
@@ -91,8 +92,13 @@ ul {
   margin: 30px 24px 20px 24px;
   font-weight: bold;
   font-size: 50px;
-  text-decoration: none;
   text-align: center;
+  color: #172b4d;
+}
+
+h2 {
+  padding-left: 70px ;
+  padding-right: 70px;
 }
 
 hr {
@@ -163,6 +169,8 @@ hr {
   margin-top: 60px;
 }
 
+/*a:hover { background: #172B4D; }*/
+
 /* About Me Section */
 
 .detailed_info {
@@ -219,3 +227,5 @@ ul .languages {
   row-gap: 20px;
   margin-bottom: 20px;
 }
+
+
