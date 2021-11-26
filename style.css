@@ -97,7 +97,7 @@ ul {
 }
 
 h2 {
-  padding-left: 70px ;
+  padding-left: 70px;
   padding-right: 70px;
 }
 
@@ -157,7 +157,7 @@ hr {
   color: #3a4a42;
 }
 
-.languages_used li:hover { background: #C5E9DA; }
+.languages_used li:hover { background: #c5e9da; }
 
 .see_project {
   text-decoration: none;
@@ -175,7 +175,7 @@ hr {
   margin-top: 60px;
 }
 
-.see_project:hover { background: #172B4D; }
+.see_project:hover { background: #172b4d; }
 
 /* About Me Section */
 
@@ -235,8 +235,8 @@ ul .languages {
 }
 
 .card2_content a {
- text-decoration: none;
- color: #36b37e;
+  text-decoration: none;
+  color: #36b37e;
 }
 
-.card2_content li:hover { background-color: #344563 ;}
+.card2_content li:hover { background-color: #344563; }
