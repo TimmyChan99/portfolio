@@ -10,13 +10,14 @@ Headline Section
 
 Works Section 
 
-![Screenshot 2021-11-25 211749](https://user-images.githubusercontent.com/92228303/143497183-cb9c86dd-02ab-49d5-be04-8ff1ec97455e.png)
+![Screenshot 2021-11-26 113931](https://user-images.githubusercontent.com/92228303/143568271-1096ee11-82ca-4670-a514-f4b9d73c6aaf.png)
  
 About Me Section
 
-![Screenshot 2021-11-25 211830](https://user-images.githubusercontent.com/92228303/143497238-64d6f200-6c2d-4e1f-8d23-e06f63761193.png)
+![Screenshot 2021-11-26 114005](https://user-images.githubusercontent.com/92228303/143568336-2775a578-058b-43b3-9576-18c2b9644a79.png)
 
-![Screenshot 2021-11-25 211859](https://user-images.githubusercontent.com/92228303/143497256-e09132ee-d5b6-4d66-80fc-9ed77ca8e914.png)
+![Screenshot 2021-11-26 114051](https://user-images.githubusercontent.com/92228303/143568347-2a2e6074-2583-429a-915f-25736a20a6cd.png)
+
 
 ## Built With
 
