@@ -142,6 +142,10 @@ hr {
   cursor: pointer;
 }
 
+.languages_used {
+  display: block;
+}
+
 .languages_used li {
   border-radius: 4px;
   padding: 8px 12px 8px 12px;
@@ -150,6 +154,7 @@ hr {
   color: #3a4a42;
   font-size: 12px;
   font-weight: bold;
+  float: left;
 }
 
 .card2_content a {
