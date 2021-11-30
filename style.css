@@ -259,7 +259,6 @@ ul .languages {
   font-weight: bold;
   font-size: 40px;
   margin: 60px 24px 58px 24px ;
-  padding: 0;
 }
 
 .form_items {
@@ -299,7 +298,7 @@ ul .languages {
   border: none;
 }
 
-.contact_form p {
+.foot_con p {
   color: #42526e;
   font-size: 20px;
   text-align: center;
