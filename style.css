@@ -240,3 +240,32 @@ ul .languages {
 }
 
 .card2_content li:hover { background-color: #344563; }
+
+/* Contact Form */
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.send_me_msg {
+  text-align: center;
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 60px 24px 58px 24px ;
+}
+
+.form_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box_Style {
+  margin: auto 24px 24px 24px;
+  padding: 15px 16px;
+  width: 327px;
+  height: 48px;
+}
