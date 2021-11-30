@@ -144,6 +144,7 @@ hr {
 
 .languages_used {
   display: block;
+  position: relative;
 }
 
 .languages_used li {
@@ -156,6 +157,7 @@ hr {
   font-weight: bold;
   float: left;
 }
+
 
 .card2_content a {
   text-decoration: none;
