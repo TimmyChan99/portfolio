@@ -240,3 +240,72 @@ ul .languages {
 }
 
 .card2_content li:hover { background-color: #344563; }
+
+/* Contact Form */
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./images/illustration-contact-form.svg") no-repeat;
+  background-size: 10%;
+  background-position: bottom 275px right 0;
+  width: 100%;
+}
+
+.send_me_msg {
+  text-align: center;
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 60px 24px 58px 24px;
+}
+
+.form_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::placeholder {
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.box_Style {
+  margin: auto 24px 24px 24px;
+  padding: 15px 16px;
+  width: 327px;
+  height: 48px;
+}
+
+.form_items textarea {
+  width: 327px;
+  height: 114px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.form_items #get_in_touch {
+  margin: 24px auto auto auto;
+  padding: 12px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+
+.foot_con p {
+  color: #42526e;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  margin: 0 auto 147px auto;
+}
+
+footer .social_media_icons {
+  margin-bottom: 19px;
+}
