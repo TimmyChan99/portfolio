@@ -258,7 +258,7 @@ ul .languages {
   color: #172b4d;
   font-weight: bold;
   font-size: 40px;
-  margin: 60px 24px 58px 24px ;
+  margin: 60px 24px 58px 24px;
 }
 
 .form_items {
@@ -267,7 +267,7 @@ ul .languages {
   align-items: center;
 }
 
-::placeholder{
+::placeholder {
   font-size: 15px;
   line-height: 24px;
   color: #091e42;
@@ -284,7 +284,7 @@ ul .languages {
   width: 327px;
   height: 114px;
   padding: 12px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
 }
@@ -293,7 +293,7 @@ ul .languages {
   margin: 24px auto auto auto;
   padding: 12px;
   font-size: 17px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   border: none;
 }
