@@ -262,11 +262,12 @@ ul .languages {
   flex-direction: column;
   align-items: center;
 }
-/* .form_items::placeholder {
+
+::placeholder{
   font-size: 15px;
   line-height: 24px;
   color: #091e42;
-} */
+} 
 
 .box_Style {
   margin: auto 24px 24px 24px;
@@ -290,4 +291,23 @@ ul .languages {
   font-size: 17px;
   color: #ffffff;
   font-weight: 500;
+  border: none;
+}
+
+.contact_form p {
+  color: #42526e;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  margin: 0 auto 147px auto;
+}
+
+/*.foot_con {
+  background-image: url("./images/illustration-contact-form.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}*/
+
+.contact_form img {
+  float: left;
 }
