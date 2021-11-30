@@ -262,10 +262,32 @@ ul .languages {
   flex-direction: column;
   align-items: center;
 }
+/* .form_items::placeholder {
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+} */
 
 .box_Style {
   margin: auto 24px 24px 24px;
   padding: 15px 16px;
   width: 327px;
   height: 48px;
+}
+
+.form_items textarea {
+  width: 327px;
+  height: 114px;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.form_items #get_in_touch {
+  margin: 24px auto 46px auto;
+  padding: 12px;
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 500;
 }
