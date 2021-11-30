@@ -247,6 +247,10 @@ ul .languages {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("./images/illustration-contact-form.svg") no-repeat;
+  background-size: 10%;
+  background-position: bottom 275px right 0;
+  width: 100%;
 }
 
 .send_me_msg {
@@ -255,6 +259,7 @@ ul .languages {
   font-weight: bold;
   font-size: 40px;
   margin: 60px 24px 58px 24px ;
+  padding: 0;
 }
 
 .form_items {
@@ -286,7 +291,7 @@ ul .languages {
 }
 
 .form_items #get_in_touch {
-  margin: 24px auto 46px auto;
+  margin: 24px auto auto auto;
   padding: 12px;
   font-size: 17px;
   color: #ffffff;
@@ -302,12 +307,6 @@ ul .languages {
   margin: 0 auto 147px auto;
 }
 
-/*.foot_con {
-  background-image: url("./images/illustration-contact-form.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
-}*/
-
-.contact_form img {
-  float: left;
+footer .social_media_icons {
+  margin-bottom: 19px;
 }
