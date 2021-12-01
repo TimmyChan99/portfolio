@@ -346,7 +346,25 @@ footer .social_media_icons {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1300px;
+   margin-top: 0px;
    }
+
+   .whoiam {
+     line-height: 60px;
+     font-size: 48px;
+   }
+
+   .job {
+    margin-top: 25px;
+   }
+
+  .abt_me {
+     /*margin-bottom: 400px;*/
+     padding-left: 355px;
+     padding-right: 355px;
+   }
+
+   
 
   /* Works Section */
 
@@ -391,11 +409,15 @@ footer .social_media_icons {
 
   /* Contact Form */
 
+
   .contact_form {
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 164px 180px;
+    background: url("./images/Frame2.svg") no-repeat, url("./images/illustration-2-contact-form-desktop.svg") no-repeat, url("./images/Frame3.svg") no-repeat;
+    background-position: 0px 100px, 250px 250px, 1000px center;
+    background-size: 10%, 10%, auto;
   }
 
   .send_me_msg {
