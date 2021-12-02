@@ -322,14 +322,13 @@ footer .social_media_icons {
 /* Media queries */
 
 @media screen and (min-width: 769px) {
-
    /*  Header Section */
 
-   .header {
+  .header {
     display: none;
    }
 
-   .navbar_destop_ver {
+  .navbar_destop_ver {
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -338,7 +337,7 @@ footer .social_media_icons {
     top: 50px;
    }
   
-   .navbar_destop_ver a {
+  .navbar_destop_ver a {
      text-decoration: none;
      color: #172b4d;
      font-weight: 600;
@@ -347,60 +346,60 @@ footer .social_media_icons {
 
   /* Headline Section */
   
-   .headline {
+  .headline {
     background-image: url("./images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1300px;
-    margin-top: 0px;
+    margin-top: 0;
    }
 
-   .whoiam {
+  .whoiam {
      line-height: 60px;
      font-size: 48px;
      margin-top: -350px;
    }
 
-   .job {
+  .job {
     margin-top: 25px;
    }
 
-   .abt_me {
+  .abt_me {
      margin-top: -10px;
      margin-bottom: 250px;
      padding-left: 355px;
      padding-right: 355px;
    }
 
-   section .social_media_icons {
+  section .social_media_icons {
     margin-top: -200px;
    }
 
   /* Works Section */
 
-   hr {
+  hr {
     display: none;
    }
 
-   .cards  {
+  .cards  {
     grid-template-rows: repeat(2, 600px);
     grid-template-columns: repeat(3, 369px);
     justify-content: center;
     align-content: center;
    }
  
-   .card {
+  .card {
      width: 369px;
    }
 
   /* About Me Section */
 
-   .card2 {
+ .card2 {
     grid-template-columns: repeat(3, auto);
     column-gap: 24px;
    }
   
-   .detailed_info {
+  .detailed_info {
     width: 100%;
     height: 331px;
     background-image: url("./images/Frame.svg"), url("./images/illustration-about-me-2-desktop.svg");
@@ -409,18 +408,18 @@ footer .social_media_icons {
     margin: 40px auto;
    }
 
-   .detailed_info p {
+  .detailed_info p {
     margin: auto 405px;
    }
 
-   .detailed_info h2 {
+  .detailed_info h2 {
     margin-top: 70px;
    }
   
 
   /* Contact Form */
 
-   .contact_form {
+  .contact_form {
     width: 1650px;
     height: 900px;
     position: relative;
@@ -434,37 +433,37 @@ footer .social_media_icons {
     background-size: 9%, 8%, 12%;
    }
 
-   .send_me_msg {
+  .send_me_msg {
     width: 463px;
     height: 256px;
     font-size: 30px;
     line-height: 52px; 
    }
 
-   .foot_con p {
+  .foot_con p {
    display: none;
    }
 
-   .foot_con {
+  .foot_con {
     position: relative;
     top: 410px;
     right: 50%;
    }
   
-   .box_Style {
+  .box_Style {
     width: 620px; 
    }
 
-   .form_items textarea {
+  .form_items textarea {
     width: 620px;
    }
 
-   #get_in_touch {
+  #get_in_touch {
     position: relative;
     right: 205%;
    }
 
-   .break_line {
+  .break_line {
     display: block;
     position: absolute;
     top: 810px;
@@ -476,5 +475,4 @@ footer .social_media_icons {
     background-color: #dfe1e6;
     border: none;
    }
-
 }
