@@ -336,16 +336,16 @@ footer .social_media_icons {
     position: absolute;
     top: 50px;
   }
-  
+ 
   .navbar_destop_ver a {
-     text-decoration: none;
-     color: #172b4d;
-     font-weight: 600;
-     margin: auto 40px;
+    text-decoration: none;
+    color: #172b4d;
+    font-weight: 600;
+    margin: auto 40px;
   }
 
   /* Headline Section */
-  
+
   .headline {
     background-image: url("./images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
@@ -355,9 +355,9 @@ footer .social_media_icons {
   }
 
   .whoiam {
-     line-height: 60px;
-     font-size: 48px;
-     margin-top: -350px;
+    line-height: 60px;
+    font-size: 48px;
+    margin-top: -350px;
   }
 
   .job {
@@ -365,10 +365,10 @@ footer .social_media_icons {
   }
 
   .abt_me {
-     margin-top: -10px;
-     margin-bottom: 250px;
-     padding-left: 355px;
-     padding-right: 355px;
+    margin-top: -10px;
+    margin-bottom: 250px;
+    padding-left: 355px;
+    padding-right: 355px;
   }
 
   section .social_media_icons {
@@ -381,15 +381,15 @@ footer .social_media_icons {
     display: none;
   }
 
-  .cards  {
+  .cards {
     grid-template-rows: repeat(2, 600px);
     grid-template-columns: repeat(3, 369px);
     justify-content: center;
     align-content: center;
   }
- 
+
   .card {
-     width: 369px;
+    width: 369px;
   }
 
   /* About Me Section */
@@ -449,9 +449,9 @@ footer .social_media_icons {
     top: 410px;
     right: 50%;
   }
-  
+
   .box_Style {
-    width: 620px; 
+    width: 620px;
   }
 
   .form_items textarea {
