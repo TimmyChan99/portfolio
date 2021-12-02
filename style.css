@@ -101,7 +101,7 @@ ul {
 }
 
 h2 {
-  padding: auto 70px;
+  padding-right: 50px;
 }
 
 hr {
@@ -322,7 +322,7 @@ footer .social_media_icons {
 /* Media queries */
 
 @media screen and (min-width: 769px) {
-   /*  Header Section */
+  /*  Header Section */
 
   .header {
     display: none;
@@ -336,7 +336,7 @@ footer .social_media_icons {
     position: absolute;
     top: 50px;
   }
- 
+
   .navbar_destop_ver a {
     text-decoration: none;
     color: #172b4d;
@@ -394,11 +394,11 @@ footer .social_media_icons {
 
   /* About Me Section */
 
- .card2 {
+  .card2 {
     grid-template-columns: repeat(3, auto);
     column-gap: 24px;
   }
-  
+
   .detailed_info {
     width: 100%;
     height: 331px;
@@ -415,7 +415,6 @@ footer .social_media_icons {
   .detailed_info h2 {
     margin-top: 70px;
   }
-  
 
   /* Contact Form */
 
@@ -429,7 +428,7 @@ footer .social_media_icons {
     justify-content: center;
     margin: -170px 240px;
     background: url("./images/Frame2.svg") no-repeat, url("./images/illustration-2-contact-form-desktop.svg") no-repeat, url("./images/Frame3.svg") no-repeat;
-    background-position: 0px 580px, 170px 650px, 1100px 400px;
+    background-position: 0 580px, 170px 650px, 1100px 400px;
     background-size: 9%, 8%, 12%;
   }
 
@@ -437,11 +436,11 @@ footer .social_media_icons {
     width: 463px;
     height: 256px;
     font-size: 30px;
-    line-height: 52px; 
+    line-height: 52px;
   }
 
   .foot_con p {
-   display: none;
+    display: none;
   }
 
   .foot_con {
