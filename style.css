@@ -7,14 +7,14 @@
 
 /*  Header Section */
 
-/*.header {
+.header {
   height: 50px;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #28352f;
-}*/
+}
 
 .header a {
   margin-right: 290px;
@@ -101,8 +101,7 @@ ul {
 }
 
 h2 {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: auto 70px;
 }
 
 hr {
@@ -326,7 +325,7 @@ footer .social_media_icons {
 
    /*  Header Section */
 
-  h3, .navbar_mobile_ver {
+  .header {
     display: none;
   }
 
@@ -334,13 +333,16 @@ footer .social_media_icons {
     background-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
   }
   
    .navbar_destop_ver a {
      text-decoration: none;
      color: #172b4d;
      font-weight: 600;
+     margin: auto 40px;
    }
 
    /* Headline Section */
@@ -350,12 +352,13 @@ footer .social_media_icons {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1300px;
-   margin-top: 0px;
+    margin-top: 0px;
    }
 
    .whoiam {
      line-height: 60px;
      font-size: 48px;
+     margin-top: -350px;
    }
 
    .job {
@@ -363,12 +366,15 @@ footer .social_media_icons {
    }
 
   .abt_me {
-     /*margin-bottom: 400px;*/
+     margin-top: -10px;
+     margin-bottom: 250px;
      padding-left: 355px;
      padding-right: 355px;
    }
 
-   
+  section .social_media_icons {
+    margin-top: -200px;
+   }
 
   /* Works Section */
 
@@ -410,6 +416,7 @@ footer .social_media_icons {
   .detailed_info h2 {
     margin-top: 70px;
   }
+  
 
   /* Contact Form */
 
@@ -458,7 +465,7 @@ footer .social_media_icons {
 
   #get_in_touch {
     position: relative;
-    right: 229%;
+    right: 205%;
   }
 
   .break_line {
