@@ -326,7 +326,7 @@ footer .social_media_icons {
 
   .header {
     display: none;
-   }
+  }
 
   .navbar_destop_ver {
     background-color: transparent;
@@ -335,14 +335,14 @@ footer .social_media_icons {
     justify-content: space-between;
     position: absolute;
     top: 50px;
-   }
+  }
   
   .navbar_destop_ver a {
      text-decoration: none;
      color: #172b4d;
      font-weight: 600;
      margin: auto 40px;
-   }
+  }
 
   /* Headline Section */
   
@@ -352,52 +352,52 @@ footer .social_media_icons {
     background-size: cover;
     height: 1300px;
     margin-top: 0;
-   }
+  }
 
   .whoiam {
      line-height: 60px;
      font-size: 48px;
      margin-top: -350px;
-   }
+  }
 
   .job {
     margin-top: 25px;
-   }
+  }
 
   .abt_me {
      margin-top: -10px;
      margin-bottom: 250px;
      padding-left: 355px;
      padding-right: 355px;
-   }
+  }
 
   section .social_media_icons {
     margin-top: -200px;
-   }
+  }
 
   /* Works Section */
 
   hr {
     display: none;
-   }
+  }
 
   .cards  {
     grid-template-rows: repeat(2, 600px);
     grid-template-columns: repeat(3, 369px);
     justify-content: center;
     align-content: center;
-   }
+  }
  
   .card {
      width: 369px;
-   }
+  }
 
   /* About Me Section */
 
  .card2 {
     grid-template-columns: repeat(3, auto);
     column-gap: 24px;
-   }
+  }
   
   .detailed_info {
     width: 100%;
@@ -406,15 +406,15 @@ footer .social_media_icons {
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
     margin: 40px auto;
-   }
+  }
 
   .detailed_info p {
     margin: auto 405px;
-   }
+  }
 
   .detailed_info h2 {
     margin-top: 70px;
-   }
+  }
   
 
   /* Contact Form */
@@ -431,37 +431,37 @@ footer .social_media_icons {
     background: url("./images/Frame2.svg") no-repeat, url("./images/illustration-2-contact-form-desktop.svg") no-repeat, url("./images/Frame3.svg") no-repeat;
     background-position: 0px 580px, 170px 650px, 1100px 400px;
     background-size: 9%, 8%, 12%;
-   }
+  }
 
   .send_me_msg {
     width: 463px;
     height: 256px;
     font-size: 30px;
     line-height: 52px; 
-   }
+  }
 
   .foot_con p {
    display: none;
-   }
+  }
 
   .foot_con {
     position: relative;
     top: 410px;
     right: 50%;
-   }
+  }
   
   .box_Style {
     width: 620px; 
-   }
+  }
 
   .form_items textarea {
     width: 620px;
-   }
+  }
 
   #get_in_touch {
     position: relative;
     right: 205%;
-   }
+  }
 
   .break_line {
     display: block;
@@ -474,5 +474,5 @@ footer .social_media_icons {
     margin-left: -25%;
     background-color: #dfe1e6;
     border: none;
-   }
+  }
 }
