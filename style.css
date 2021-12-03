@@ -407,7 +407,7 @@ footer .social_media_icons {
   }
 
   .title:hover,
-  .navbar_destop_ver a:hover{
+  .navbar_destop_ver a:hover {
     transform: translate(0, -10px);
     transition: all 1s ease;
   }
