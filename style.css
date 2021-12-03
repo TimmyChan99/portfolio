@@ -101,7 +101,8 @@ ul {
 }
 
 h2 {
-  padding-right: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
 hr {
@@ -110,8 +111,8 @@ hr {
   border-radius: 24px;
   width: 60px;
   border: none;
-  margin-left: 210px;
-  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .card {
@@ -195,6 +196,7 @@ hr {
   grid-template-columns: repeat(1, 450px);
   gap: 32px 24px;
   margin-top: 60px;
+  justify-content: center;
 }
 
 .see_project:hover { background: #172b4d; }
@@ -211,6 +213,8 @@ hr {
   background-repeat: no-repeat, no-repeat;
   height: 450px;
   width: 450px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
 }
 
@@ -426,7 +430,7 @@ footer .social_media_icons {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: -170px 240px;
+    margin: -170px 290px;
     background: url("./images/Frame2.svg") no-repeat, url("./images/illustration-2-contact-form-desktop.svg") no-repeat, url("./images/Frame3.svg") no-repeat;
     background-position: 0 580px, 170px 650px, 1100px 400px;
     background-size: 9%, 8%, 12%;
@@ -465,7 +469,7 @@ footer .social_media_icons {
   .break_line {
     display: block;
     position: absolute;
-    top: 810px;
+    top: 840px;
     right: 550px;
     width: 1800px;
     height: 2px;
