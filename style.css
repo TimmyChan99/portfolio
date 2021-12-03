@@ -248,7 +248,11 @@ ul .languages {
   margin-bottom: 20px;
 }
 
-.card2_content li:hover { background-color: #344563; }
+.card2_content .languages li a:hover {
+  background-color: #344563;
+  color: #fff;
+  cursor: pointer;
+}
 
 /* Contact Form */
 
@@ -401,7 +405,8 @@ footer .social_media_icons {
   .card {
     width: 369px;
   }
-  
+
+  .title:hover,
   .navbar_destop_ver a:hover{
     transform: translate(0, -10px);
     transition: all 1s ease;
@@ -429,6 +434,12 @@ footer .social_media_icons {
 
   .detailed_info h2 {
     margin-top: 70px;
+  }
+
+  .card2_content .languages li a:hover {
+    background-color: #344563;
+    color: #fff;
+    cursor: pointer;
   }
 
   /* Contact Form */
