@@ -325,7 +325,7 @@ footer .social_media_icons {
 
 /* Media queries */
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1090px) {
   /*  Header Section */
 
   .header {
@@ -394,6 +394,15 @@ footer .social_media_icons {
 
   .card {
     width: 369px;
+    color: #172b4d;
+  }
+
+  .project_name {
+    color: #172b4d;
+  }
+
+  .languages_used li a {
+    color: #172b4d;
   }
 
   /* About Me Section */
@@ -423,17 +432,15 @@ footer .social_media_icons {
   /* Contact Form */
 
   .contact_form {
-    width: 1650px;
-    height: 900px;
+    height: 750px;
     position: relative;
     overflow: visible;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: -170px 290px;
     background: url("./images/Frame2.svg") no-repeat, url("./images/illustration-2-contact-form-desktop.svg") no-repeat, url("./images/Frame3.svg") no-repeat;
-    background-position: 0 580px, 170px 650px, 1100px 400px;
-    background-size: 9%, 8%, 12%;
+    background-position: bottom left, 450px 540px, bottom right;
+    margin: auto;
   }
 
   .send_me_msg {
@@ -448,9 +455,8 @@ footer .social_media_icons {
   }
 
   .foot_con {
-    position: relative;
-    top: 410px;
-    right: 50%;
+    position: absolute;
+    top: 720px;
   }
 
   .box_Style {
@@ -469,12 +475,9 @@ footer .social_media_icons {
   .break_line {
     display: block;
     position: absolute;
-    top: 840px;
-    right: 550px;
-    width: 1800px;
+    top: 747px;
+    width: 100%;
     height: 2px;
-    margin-right: -25%;
-    margin-left: -25%;
     background-color: #dfe1e6;
     border: none;
   }
