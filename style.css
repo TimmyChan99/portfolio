@@ -325,7 +325,7 @@ footer .social_media_icons {
 
 /* Media queries */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1080px) {
   /*  Header Section */
 
   .header {
