@@ -383,11 +383,13 @@ footer .social_media_icons {
     
   }
 
-  section .social_media_icons li:hover{
+  .social_media_icons li:hover {
     border-image-width: 100px;
-    transform: scale(1.05);
+    transform: scale(1.5);
     transition: all 0.5s ease;
   }
+
+  
 
   /* Works Section */
 
