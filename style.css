@@ -379,6 +379,16 @@ footer .social_media_icons {
     margin-top: -200px;
   }
 
+  section .social_media_icons li{
+    
+  }
+
+  section .social_media_icons li:hover{
+    border-image-width: 100px;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+  }
+
   /* Works Section */
 
   hr {
