@@ -379,17 +379,11 @@ footer .social_media_icons {
     margin-top: -200px;
   }
 
-  section .social_media_icons li{
-    
-  }
-
   .social_media_icons li:hover {
     border-image-width: 100px;
     transform: scale(1.5);
     transition: all 0.5s ease;
   }
-
-  
 
   /* Works Section */
 
@@ -406,6 +400,11 @@ footer .social_media_icons {
 
   .card {
     width: 369px;
+  }
+  
+  .navbar_destop_ver a:hover{
+    transform: translate(0, -10px);
+    transition: all 1s ease;
   }
 
   /* About Me Section */
