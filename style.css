@@ -7,7 +7,7 @@
 
 /*  Header Section */
 
-header {
+.header {
   height: 50px;
   background-color: white;
   display: flex;
@@ -16,15 +16,19 @@ header {
   color: #28352f;
 }
 
-header a {
+.header a {
   margin-right: 290px;
   font-weight: 600;
   text-decoration: none;
   color: #28352f;
 }
 
-header img {
+.header img {
   cursor: pointer;
+}
+
+.navbar_destop_ver {
+  display: none;
 }
 
 /* Headline Section */
@@ -97,8 +101,8 @@ ul {
 }
 
 h2 {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
 hr {
@@ -107,15 +111,16 @@ hr {
   border-radius: 24px;
   width: 60px;
   border: none;
-  margin-left: 210px;
-  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto 30px 20px 55px;
+  justify-content: center;
+  margin: auto 30px 20px 20px;
 }
 
 .img_placeholder {
@@ -189,7 +194,9 @@ hr {
   row-gap: 10px;
   grid-template-rows: repeat(5, 600px);
   grid-template-columns: repeat(1, 450px);
+  gap: 32px 24px;
   margin-top: 60px;
+  justify-content: center;
 }
 
 .see_project:hover { background: #172b4d; }
@@ -206,6 +213,8 @@ hr {
   background-repeat: no-repeat, no-repeat;
   height: 450px;
   width: 450px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
 }
 
@@ -240,3 +249,236 @@ ul .languages {
 }
 
 .card2_content li:hover { background-color: #344563; }
+
+/* Contact Form */
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./images/illustration-contact-form.svg") no-repeat;
+  background-size: 10%;
+  background-position: bottom 275px right 0;
+  width: 100%;
+}
+
+.send_me_msg {
+  text-align: center;
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 60px 24px 58px 24px;
+}
+
+.form_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::placeholder {
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.box_Style {
+  margin: auto 24px 24px 24px;
+  padding: 15px 16px;
+  width: 327px;
+  height: 48px;
+}
+
+.form_items textarea {
+  width: 327px;
+  height: 114px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.form_items #get_in_touch {
+  margin: 24px auto auto auto;
+  padding: 12px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+
+.foot_con p {
+  color: #42526e;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  margin: 0 auto 147px auto;
+}
+
+footer .social_media_icons {
+  margin-bottom: 19px;
+}
+
+.break_line {
+  display: none;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 1090px) {
+  /*  Header Section */
+
+  .header {
+    display: none;
+  }
+
+  .navbar_destop_ver {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+  }
+
+  .navbar_destop_ver a {
+    text-decoration: none;
+    color: #172b4d;
+    font-weight: 600;
+    margin: auto 40px;
+  }
+
+  /* Headline Section */
+
+  .headline {
+    background-image: url("./images/Header-llustration-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+    margin-top: 0;
+  }
+
+  .whoiam {
+    line-height: 60px;
+    font-size: 48px;
+    margin-top: -350px;
+  }
+
+  .job {
+    margin-top: 25px;
+  }
+
+  .abt_me {
+    margin-top: -10px;
+    margin-bottom: 250px;
+    padding-left: 355px;
+    padding-right: 355px;
+  }
+
+  section .social_media_icons {
+    margin-top: -200px;
+  }
+
+  /* Works Section */
+
+  hr {
+    display: none;
+  }
+
+  .cards {
+    grid-template-rows: repeat(2, 600px);
+    grid-template-columns: repeat(3, 369px);
+    justify-content: center;
+    align-content: center;
+  }
+
+  .card {
+    width: 369px;
+    color: #172b4d;
+  }
+
+  .project_name {
+    color: #172b4d;
+  }
+
+  .languages_used li a {
+    color: #172b4d;
+  }
+
+  /* About Me Section */
+
+  .card2 {
+    grid-template-columns: repeat(3, auto);
+    column-gap: 24px;
+  }
+
+  .detailed_info {
+    width: 100%;
+    height: 331px;
+    background-image: url("./images/Frame.svg"), url("./images/illustration-about-me-2-desktop.svg");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    margin: 40px auto;
+  }
+
+  .detailed_info p {
+    margin: auto 405px;
+  }
+
+  .detailed_info h2 {
+    margin-top: 70px;
+  }
+
+  /* Contact Form */
+
+  .contact_form {
+    height: 750px;
+    position: relative;
+    overflow: visible;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: url("./images/Frame2.svg") no-repeat, url("./images/illustration-2-contact-form-desktop.svg") no-repeat, url("./images/Frame3.svg") no-repeat;
+    background-position: bottom left, 450px 540px, bottom right;
+    margin: auto;
+  }
+
+  .send_me_msg {
+    width: 463px;
+    height: 256px;
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .foot_con p {
+    display: none;
+  }
+
+  .foot_con {
+    position: absolute;
+    top: 720px;
+  }
+
+  .box_Style {
+    width: 620px;
+  }
+
+  .form_items textarea {
+    width: 620px;
+  }
+
+  #get_in_touch {
+    position: relative;
+    right: 205%;
+  }
+
+  .break_line {
+    display: block;
+    position: absolute;
+    top: 747px;
+    width: 100%;
+    height: 2px;
+    background-color: #dfe1e6;
+    border: none;
+  }
+}

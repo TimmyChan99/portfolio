@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: Setup mobile and desktop version 
 
-> Creating a portfolio website mobile version
+> Portfolio website mobile version
 
 Headline Section
 
@@ -18,6 +18,25 @@ About Me Section
 
 ![Screenshot 2021-11-26 114051](https://user-images.githubusercontent.com/92228303/143568347-2a2e6074-2583-429a-915f-25736a20a6cd.png)
 
+> Portfolio website Desktop Version
+
+Headline Section
+
+![Screenshot 2021-12-02 152058](https://user-images.githubusercontent.com/92228303/144450880-e14e872c-4d39-412f-b50e-a94f3f224cc3.png)
+
+Works Section 
+
+![Screenshot 2021-12-02 152146](https://user-images.githubusercontent.com/92228303/144450911-14574e80-3778-410f-ac1d-ab96fc676544.png)
+
+About Me Section
+
+![Screenshot 2021-12-02 152331](https://user-images.githubusercontent.com/92228303/144450945-dd24ff70-7d76-4d44-b37f-5a5d63627843.png)
+
+![Screenshot 2021-12-02 152459](https://user-images.githubusercontent.com/92228303/144450973-96e26e7a-9beb-4ace-8444-e68e48aae64f.png)
+
+Contact Me Section
+
+![Screenshot 2021-12-02 152438](https://user-images.githubusercontent.com/92228303/144450995-0decf977-8bb7-47dd-ab55-0589621aa797.png)
 
 ## Built With
 
