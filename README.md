@@ -43,6 +43,10 @@ Contact Me Section
 - HTML
 - CSS
 
+## Live Demo
+
+To visit the project online click here [Live Demo Link](https://timmychan99.github.io/portfolio/)
+
 ## Getting Started
 
 ### Setup
