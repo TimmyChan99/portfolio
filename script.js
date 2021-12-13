@@ -1,18 +1,9 @@
-let isVisible = false;
-let test = true;
-
-let getnav = document.querySelector(".mobile_menu");
- 
-   
-
-
- let mobileMenu = function() {
+const getnav = document.querySelector(".mobile_menu");
+ const mobileMenu = function() {
    getnav.style.visibility = 'visible';
-    
  }
 
- let closeMenu = function () {
+ const closeMenu = function () {
     getnav.style.visibility = 'hidden';
  }
-
  
