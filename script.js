@@ -1,7 +1,10 @@
 const getnav = document.querySelector('.mobile_menu');
-const mobileMenu = function () {
+function mobileMenu() {
   getnav.style.visibility = 'visible';
-} ;
- const closeMenu = function () {
+}
+function closeMenu() {
   getnav.style.visibility = 'hidden';
-} ;
+}
+
+mobileMenu();
+closeMenu();
