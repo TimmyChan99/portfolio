@@ -32,16 +32,22 @@
         <img src="./images/Union.svg" onclick="mobileMenu()" alt="menu icon" />
       </nav>
     </div>
-  </header>
-  <section class="headline">
     <div class="mobile_menu">
       <img src="./images/cross_icon.svg" class="cross_icon" onclick="closeMenu()" alt="cross icon">
-      <nav class="navbar_destop_ver">
+      <nav class="navbar_destop_version_alpha">
         <a href="#">Portfolio</a>
         <a href="#">About</a>
         <a href="#">contact</a>
       </nav>
     </div>
+    
+  </header>
+  <section class="headline">
+    <nav class="navbar_destop_ver">
+      <a href="#works">Portfolio</a>
+      <a href="#about-me">About</a>
+      <a href="#contact-us">contact</a>
+    </nav>
     <div class="whoiam">
       <h1 class="name">Hey there. I'm Fatima Ezzahra</h1>
       <h2 class="job">I'm a software developer</h2>
@@ -74,7 +80,7 @@
       <a href="#"><img src="./images/Disabled.svg" alt="next_button" /></a>
     </div>
   </section>
-  <section class="works">
+  <section id="works" class="works">
     <h2 class="title">My Recent Works</h2>
     <hr />
     <div class="cards">
@@ -158,7 +164,7 @@
       </div>
     </div>
   </section>
-  <section class="about_me">
+  <section id="about-me" class="about_me">
     <div class="detailed_info">
       <h2 class="title">About me</h2>
       <p class="aboutme">
@@ -203,7 +209,7 @@
       </li>
     </ul>
   </section>
-  <footer class="contact_form">
+  <footer id="contact-us" class="contact_form">
     <p class="send_me_msg">I'm always interested in hearing about new projects, so if you'd like to chat please get in
       touch.</p>
     <form action="https://formspree.io/f/xzbopjvn" method="POST">

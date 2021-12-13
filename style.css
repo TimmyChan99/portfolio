@@ -28,7 +28,7 @@
 }
 
 .mobile_menu {
-  background-color: gray;
+  background-color: white;
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -42,19 +42,23 @@
   float: right;
 }
 
-.navbar_destop_ver {
+.navbar_destop_version_alpha {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   clear: both;
 }
 
-.navbar_destop_ver a {
+.navbar_destop_version_alpha a {
   text-decoration: none;
   color: #3a4a42;
   font-size: 32px;
   line-height: 44px;
   font-weight: 550;
+}
+
+.navbar_destop_ver {
+  display: none;
 }
 
 /* Headline Section */
