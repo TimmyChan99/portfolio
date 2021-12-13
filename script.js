@@ -15,6 +15,4 @@ let getnav = document.querySelector(".mobile_menu");
     getnav.style.visibility = 'hidden';
  }
 
- let portfolio = function () {
-   getnav.style.visibility = 'hidden'
- }
+ 
