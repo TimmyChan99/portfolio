@@ -12,33 +12,36 @@
   <title>My Portfolio</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J16KK4QYVH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J16KK4QYVH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-J16KK4QYVH');
-</script>
-  
-  
-  </head>
-  
+    gtag('config', 'G-J16KK4QYVH');
+  </script>
+
+
+</head>
+
 <body>
   <header>
     <div class="header">
       <h3><a href="#">Welcome</a></h3>
       <nav class="navbar_mobile_ver">
-        <img src="./images/Union.svg" alt="menu icon" />
+        <img src="./images/Union.svg" onclick="mobileMenu()" alt="menu icon" />
       </nav>
     </div>
   </header>
   <section class="headline">
-    <nav class="navbar_destop_ver">
-      <a href="#">Portfolio</a>
-      <a href="#">About</a>
-      <a href="#">contact</a>
-    </nav>
+    <div class="mobile_menu">
+      <img src="./images/cross_icon.svg" class="cross_icon" onclick="closeMenu()" alt="cross icon">
+      <nav class="navbar_destop_ver">
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">contact</a>
+      </nav>
+    </div>
     <div class="whoiam">
       <h1 class="name">Hey there. I'm Fatima Ezzahra</h1>
       <h2 class="job">I'm a software developer</h2>
@@ -236,5 +239,6 @@
     </div>
   </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
