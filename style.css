@@ -27,8 +27,16 @@
   cursor: pointer;
 }
 
-.navbar_destop_ver {
-  display: none;
+/* .navbar_destop_ver {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+} */
+
+.navbar_destop_ver a {
+  text-decoration: none;
+  color: #3a4a42;
 }
 
 /* Headline Section */
