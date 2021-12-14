@@ -12,32 +12,44 @@
   <title>My Portfolio</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J16KK4QYVH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J16KK4QYVH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-J16KK4QYVH');
-</script>
-  
-  
-  </head>
-  
+    gtag('config', 'G-J16KK4QYVH');
+  </script>
+
+
+</head>
+
 <body>
+  <div></div>
   <header>
     <div class="header">
       <h3><a href="#">Welcome</a></h3>
       <nav class="navbar_mobile_ver">
-        <img src="./images/Union.svg" alt="menu icon" />
+        <img src="./images/Union.svg" onclick="mobileMenu()" alt="menu icon" />
       </nav>
     </div>
+    <div class="blur_bg">
+      <div class="mobile_menu">
+        <img src="./images/cross_icon.svg" class="cross_icon" onclick="closeMenu()" alt="cross icon">
+        <nav class="navbar_destop_version_alpha">
+          <a onclick="closeMenu()" href="#works">Portfolio</a>
+          <a onclick="closeMenu()" href="#about-me">About</a>
+          <a onclick="closeMenu()" href="#contact-us">contact</a>
+        </nav>
+      </div>
+    </div>
+
   </header>
   <section class="headline">
     <nav class="navbar_destop_ver">
-      <a href="#">Portfolio</a>
-      <a href="#">About</a>
-      <a href="#">contact</a>
+      <a href="#works">Portfolio</a>
+      <a href="#about-me">About</a>
+      <a href="#contact-us">contact</a>
     </nav>
     <div class="whoiam">
       <h1 class="name">Hey there. I'm Fatima Ezzahra</h1>
@@ -71,7 +83,7 @@
       <a href="#"><img src="./images/Disabled.svg" alt="next_button" /></a>
     </div>
   </section>
-  <section class="works">
+  <section id="works" class="works">
     <h2 class="title">My Recent Works</h2>
     <hr />
     <div class="cards">
@@ -155,7 +167,7 @@
       </div>
     </div>
   </section>
-  <section class="about_me">
+  <section id="about-me" class="about_me">
     <div class="detailed_info">
       <h2 class="title">About me</h2>
       <p class="aboutme">
@@ -200,7 +212,7 @@
       </li>
     </ul>
   </section>
-  <footer class="contact_form">
+  <footer id="contact-us" class="contact_form">
     <p class="send_me_msg">I'm always interested in hearing about new projects, so if you'd like to chat please get in
       touch.</p>
     <form action="https://formspree.io/f/xzbopjvn" method="POST">
@@ -235,6 +247,7 @@
       <p>felemenoun@gmail.com</p>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
