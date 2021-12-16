@@ -23,16 +23,21 @@
 .modal_window {
   background-color: #fff;
   width: 80vw;
-  height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   padding: 16px;
   border-radius: 16px;
+  z-index: 1;
 }
 
-.project_img {
+.close_btn,
+.project_img_desktop {
+  display: none;
+}
+
+.project_img_mobile {
   align-self: center;
   width: 70vw;
 }
@@ -606,4 +611,39 @@ footer .social_media_icons {
     background-color: #dfe1e6;
     border: none;
   }
+
+  /* Modal Window  */
+  .modal_window {
+    width: 70%;
+    padding: 24px;
+    overflow-y: scroll;
+  }
+
+  .project_img_mobile {
+    display: none;
+  }
+
+  .close_btn {
+    display: block;
+    align-self: flex-end;
+    margin: 15px;
+  }
+
+  .project_img_desktop {
+    display: block;
+    width: 95%;
+    align-self: center;
+    margin: 0 0 20px 0;
+  }
+
+  .project_title {
+    font-size: 32px;
+    align-self: center;
+  }
+
+  .project_decription {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* Modal Window  */
 }
