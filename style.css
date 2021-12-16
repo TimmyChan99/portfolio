@@ -632,9 +632,9 @@ footer .social_media_icons {
 
     /* height: MAX-content; */
 
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(2,1fr);
-    overflow-y: auto; */
+    overflow-y: auto;
   }
 
   .project_img_mobile {

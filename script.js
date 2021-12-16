@@ -152,6 +152,5 @@ function openModal(id) {
     }
   }
 }
-
-closeModal();
 openModal();
+closeModal();
