@@ -629,13 +629,13 @@ footer .social_media_icons {
   .modal_window {
     width: 70%;
     padding: 24px;
+
     /* height: MAX-content; */
+
     /* display: grid;
     grid-template-columns: repeat(2,1fr);
     overflow-y: auto; */
   }
-
-
 
   .project_img_mobile {
     display: none;
@@ -679,6 +679,7 @@ footer .social_media_icons {
   .bg_modal {
     overflow-y: scroll;
   }
+
   .tech_list {
     display: none;
   }
@@ -687,7 +688,6 @@ footer .social_media_icons {
     display: flex;
     order: 4;
     margin-bottom: 24px;
-
   }
 
   .feature_list li a {
@@ -706,10 +706,9 @@ footer .social_media_icons {
   }
 
   .bg_modal::-webkit-scrollbar {
-    display: none; 
+    display: none;
   }
 
 
   /* Modal Window  */
-}
 }
