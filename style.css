@@ -54,6 +54,10 @@
   font-weight: 600;
 }
 
+.feature_list {
+  display: none;
+}
+
 .project_decription {
   color: #344563;
   font-size: 16px;
@@ -623,7 +627,6 @@ footer .social_media_icons {
     overflow-y: scroll;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-
   }
 
   .project_img_mobile {
@@ -654,13 +657,6 @@ footer .social_media_icons {
     margin-bottom: 20px;
   }
 
-  .tech_list {
-    order: 4;
-    grid-column: 1/ 3;
-    justify-content: start;
-    margin-bottom: 20px;
-  }
-
   .modal_btns {
     justify-self: end;
   }
@@ -675,5 +671,37 @@ footer .social_media_icons {
   .bg_modal {
     overflow-y: scroll;
   }
+  .tech_list {
+    display: none;
+  }
+
+  .feature_list {
+    display: flex;
+    order: 4;
+    margin-bottom: 24px;
+
+  }
+
+  .feature_list li a {
+    border-radius: 4px;
+    padding: 8px 12px 8px 12px;
+    margin: auto 10px auto 10px;
+    background-color: #ebecf0;
+    color: #344563;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    order: 4;
+    grid-column: 1/ 3;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+
+  .modal_window::-webkit-scrollbar {
+    display: none; 
+  }
+
+
   /* Modal Window  */
+}
 }
