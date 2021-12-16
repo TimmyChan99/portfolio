@@ -644,9 +644,6 @@ footer .social_media_icons {
   .modal_window {
     width: 70%;
     padding: 24px;
-
-    /* height: MAX-content; */
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow-y: auto;
@@ -703,6 +700,15 @@ footer .social_media_icons {
 
   .bg_modal::-webkit-scrollbar {
     display: none;
+  }
+
+  .modal_btn {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    padding: 12px;
+    width: 141px;
+    margin-left: 6px;
   }
 
   /* Modal Window  */
