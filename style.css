@@ -17,7 +17,7 @@
   width: 100%;
   height: 100%;
   backdrop-filter: blur(10px);
-  visibility: visible;
+  visibility: hidden;
   z-index: 10;
 }
 
@@ -621,13 +621,21 @@ footer .social_media_icons {
   }
 
   /* Modal Window  */
+
+  .bg_modal {
+    overflow-y: scroll;
+  }
+
   .modal_window {
     width: 70%;
     padding: 24px;
-    overflow-y: scroll;
-    display: grid;
+    /* height: MAX-content; */
+    /* display: grid;
     grid-template-columns: repeat(2,1fr);
+    overflow-y: auto; */
   }
+
+
 
   .project_img_mobile {
     display: none;
@@ -697,7 +705,7 @@ footer .social_media_icons {
     margin-bottom: 20px;
   }
 
-  .modal_window::-webkit-scrollbar {
+  .bg_modal::-webkit-scrollbar {
     display: none; 
   }
 
