@@ -148,14 +148,18 @@
   <footer id="contact-us" class="contact_form">
     <p class="send_me_msg">I'm always interested in hearing about new projects, so if you'd like to chat please get in
       touch.</p>
-    <form action="https://formspree.io/f/xzbopjvn" method="POST">
+    <form id="submit_form" action="https://formspree.io/f/xzbopjvn" method="POST">
       <ul class="form_items">
         <li><input class="box_Style" type="text" name="name" id="name" maxlength="30" placeholder="Full Name" required>
         </li>
-        <li><input class="box_Style" type="email" name="email" id="email" placeholder="Email address" required></li>
+        <li><input class="box_Style" type="email" name="email" id="email" placeholder="Email address" required>
+        </li>
+        <small id="message_error" class="hidden">invalid email</small>
+        <small id="message_success" class="hidden">submitted</small>
         <li><textarea name="message" id="msg" cols="30" rows="10" placeholder="Enter text here" maxlength="500"
             required></textarea></li>
-        <li><input type="submit" id="get_in_touch" class="see_project" value="Get in touch"></li>
+        <li><input type="submit" id="get_in_touch" class="see_project" value="Get in touch">
+        </li>
       </ul>
     </form>
     <hr class="break_line" />

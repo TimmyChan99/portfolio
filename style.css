@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+#message.error {
+  visibility: visible;
+}
+
 /* Modal Window  */
 
 .bg_modal {
@@ -712,4 +716,18 @@ footer .social_media_icons {
   }
 
   /* Modal Window  */
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  display: flex;
+}
+
+.success {
+  color: green;
+  display: block;
 }
