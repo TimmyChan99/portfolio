@@ -10,10 +10,10 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     msgError.classList.toggle('error');
 
-    setTimeout(() => { msgError.classList.toggle('error'); }, 3000);
+    setTimeout(() => { msgError.classList.toggle('error'); }, 1300);
   } else {
     msgSuccess.classList.toggle('success');
 
-    setTimeout(() => { form.submit(); }, 2000);
+    setTimeout(() => { form.submit(); }, 1300);
   }
 });

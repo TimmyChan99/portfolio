@@ -468,6 +468,7 @@ footer .social_media_icons {
   position: relative;
   bottom: 40px;
   left: 170px;
+  font-weight: bold;
 }
 
 
@@ -744,14 +745,14 @@ footer .social_media_icons {
   /* Validation message */
   .error {
     bottom: 200px;
-    left: 0;
-    top: 0px;
+    left: -59px;
+    top: -32px;
   }
   
   .success {
     bottom: 40px;
-    left: 0;
-    top: 0;
+    left: -59px;
+    top: -32px;
   }
 
 }
