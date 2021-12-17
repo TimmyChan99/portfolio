@@ -3,7 +3,7 @@ const x = document.querySelector('#name');
 const email = document.querySelector('#email');
 const messg = document.querySelector('#msg');
 
-form2.addEventListener('submit', () => {
+form2.addEventListener('change', () => {
   const obj = {
     fullname: document.querySelector('#name').value,
     EmailAdress: document.querySelector('#email').value,
@@ -17,7 +17,9 @@ const getData = localStorage.getItem('DATA');
 const getDataValue = JSON.parse(getData);
 
 window.addEventListener('load', () => {
-  x.value = getDataValue.fullname;
-  email.value = getDataValue.EmailAdress;
-  messg.value = getDataValue.message;
+  if (localStorage.getItem('DATA')) {
+    x.value = getDataValue.fullname;
+    email.value = getDataValue.EmailAdress;
+    messg.value = getDataValue.message;
+  }
 });
