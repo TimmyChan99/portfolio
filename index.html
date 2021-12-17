@@ -154,11 +154,14 @@
         </li>
         <li><input class="box_Style" type="email" name="email" id="email" placeholder="Email address" required>
         </li>
-        <small id="message_error" class="hidden">invalid email</small>
-        <small id="message_success" class="hidden">submitted</small>
         <li><textarea name="message" id="msg" cols="30" rows="10" placeholder="Enter text here" maxlength="500"
             required></textarea></li>
-        <li><input type="submit" id="get_in_touch" class="see_project" value="Get in touch">
+        <li>
+          <input type="submit" id="get_in_touch" class="see_project" value="Get in touch">
+        </li>
+        <li>
+          <small id="message_error" class="hidden">Enter email in lowercase <br>Form not submitted</small>
+          <small id="message_success" class="hidden">submitted</small>
         </li>
       </ul>
     </form>
@@ -185,6 +188,7 @@
     </div>
   </footer>
   <script src="script.js"></script>
+  <script src="validation.js"></script>
 </body>
 
 </html>
