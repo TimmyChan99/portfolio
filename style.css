@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+#message.error {
+  visibility: visible;
+}
+
 /* Modal Window  */
 
 .bg_modal {
@@ -443,6 +447,30 @@ footer .social_media_icons {
   display: none;
 }
 
+/* Validation message */
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  top: 5px;
+}
+
+.success {
+  color: green;
+  display: block;
+  position: relative;
+  bottom: 40px;
+  left: 170px;
+  font-weight: bold;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 1090px) {
@@ -712,4 +740,17 @@ footer .social_media_icons {
   }
 
   /* Modal Window  */
+
+  /* Validation message */
+  .error {
+    bottom: 200px;
+    left: -59px;
+    top: -32px;
+  }
+
+  .success {
+    bottom: 40px;
+    left: -59px;
+    top: -32px;
+  }
 }
