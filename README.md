@@ -42,6 +42,7 @@ Contact Me Section
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
